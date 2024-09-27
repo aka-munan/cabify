@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ModalBottomSheet" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="behavior_hideable">true</item>
+        <item name="android:backgroundTint">@color/colorContainer</item>
+
+    </style>
+
+    <style name="ModalBottomSheetDialog" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/ModalBottomSheet</item>
+
+    </style>
+
+    <style name="BottomSheet" parent="Widget.Material3.BottomSheet">
+        <item name="android:backgroundTint">@color/colorContainer</item>
+    </style>
+
+    <style name="ImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="ImageViewRounded_10">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10%</item>
+    </style>
+
+    <style name="ButtonRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">35%</item>
+    </style>
+
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <style name="ImageButtonTransparent" parent="Widget.AppCompat.ImageButton">
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:textColor">@color/colorSecondary</item>
+        <item name="iconTint">@color/colorSecondary</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="ShapeAppearance.MaterialComponents.CardViewFlatTop" parent="ShapeAppearance.MaterialComponents">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+    </style>
+
+    <style name="ShapeAppearance.MaterialComponents.CardViewFlatBottom" parent="ShapeAppearance.MaterialComponents">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <style name="Widget.App.VerticalProgressIndicator" parent="Widget.MaterialComponents.LinearProgressIndicator">
+        <item name="android:layout_width">3dp</item>
+        <item name="android:progressDrawable">@drawable/vertical_progress_drawable</item>
+    </style>
+
+    <style name="Widget.App.Button" parent="Widget.Material3.Button">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button</item>
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="iconPadding">16dp</item>
+    </style>
+    <style name="ThemeOverlay.App.Button" parent="ThemeOverlay.Material3.Button">
+        <item name="colorContainer">@color/colorPrimary</item>
+        <item name="colorOnContainer">@color/colorOnContainer</item>
+    </style>
+    <style name="Widget.App.ReviewChip" parent="Widget.Material3.Chip.Assist">
+        <item name="chipIcon">@android:drawable/btn_star</item>
+        <item name="checkedIcon">@android:drawable/btn_star</item>
+        <item name="chipSurfaceColor">@android:color/transparent</item>
+        <item name="chipBackgroundColor">@android:color/transparent</item>
+        <item name="chipStrokeWidth">0dp</item>
+        <item name="chipIconSize">36dp</item>
+        <item name="chipIconTint">?android:attr/textColorHint</item>
+        <item name="checkedIconTint">@color/gold</item>
+        <item name="iconEndPadding">-16dp</item>
+        <item name="checkedIconVisible">true</item>
+        <item name="android:checkable">true</item>
+    </style>
+</resources>

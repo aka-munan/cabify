@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Material login</string>
+    <string name="welcome_title">Hello!</string>
+    <string name="welcome_message">Login / Sign-up to continue</string>
+    <string name="emailHint">email@eg.com</string>
+    <string name="passwordHint">password</string>
+    <string name="usernameHint">username</string>
+</resources>

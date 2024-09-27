@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Cab" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="android:windowSplashScreenBackground">#020002</item>
+        <item name="android:windowSplashScreenAnimationDuration">4000</item>
+
+    </style>
+    <style name="Theme.Cab" parent="Base.Theme.Cab" >
+        <item name="android:statusBarColor">#020002</item>
+        <item name="bottomSheetDialogTheme">@style/ModalBottomSheetDialog</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorContainer">@color/colorContainer</item>
+        <item name="colorOnContainer">@color/colorOnSurface</item>
+        <item name="colorSurfaceContainerLow">@color/colorSurfaceContainerHigh</item>
+        <item name="colorSurfaceContainerHigh">@color/colorSurfaceContainerHigh</item>
+        <item name="buttonStyle">@style/Widget.App.Button</item>
+    </style>
+
+</resources>

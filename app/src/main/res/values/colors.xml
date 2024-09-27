@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gold">#FFB300</color>
+    <color name="colorPrimary">#D7FBB264</color>
+    <color name="colorPrimaryVariant">#FBC492</color>
+    <color name="colorSecondary">#12011B</color>
+    <color name="colorSurface">#e8edeb</color>
+    <color name="colorSurfaceContainerHigh">#F4EFEA</color>
+    <color name="colorSurfaceContainerHighest">#F4EFEA</color>
+    <color name="colorOnSurface">#F19F20</color>
+    <color name="colorError">#FF0073</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#F19F20</color>
+    <color name="colorContainer">#F6F5F5</color>
+    <color name="colorDisabled">@android:color/darker_gray</color>
+    <color name="colorOnContainer">#BA945A</color>
+    <color name="colorSuccess">#2ECC71</color>
+</resources>

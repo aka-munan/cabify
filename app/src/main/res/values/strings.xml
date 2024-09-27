@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cabify</string>
+    <string name="web_client_id">changed at compile time</string>
+    <string name="email_verification_message">,\nWe just need to verify your email address before you can proceed to the app.\nVerify your email address through the link sent to your email</string>
+    <string name="forgot_password_message">Please reset your password through the link sent to your email</string>
+    <string name="motor_bike">MotorBike</string>
+    <string name="electric_car">Electric-Car</string>
+    <string name="car">Car</string>
+    <string name="passengers_description">number of passengers</string>
+    <string name="terms_and_conditions">As a driver, I hereby consent to the Terms and Conditions outlined by KAB. I understand that my participation as a driver is subject to adhering to these terms, which cover areas such as service standards, payment procedures, dispute resolution, and compliance with local transportation laws. By proceeding, I acknowledge that I have read, understood, and agree to be bound by these Terms and Conditions.</string>
+    <string name="gps_consent">I agree to share my GPS location in real-time with KAB while I am actively driving and providing transportation services. I understand that this data is essential for ride tracking, ensuring passenger safety, and optimizing trip routes. I consent to the app continuously collecting and using my location data during active trips.</string>
+    <string name="server_addr">http://192.168.106.37:3000/</string>
+    <string name="rideListenerDescription">Location service for Cabify to find new rides</string>
+</resources>

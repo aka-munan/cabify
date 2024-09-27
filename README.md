@@ -1,14 +1,51 @@
-![Screenrecorder-2024-09-26-14-17-58-506](https://github.com/user-attachments/assets/74358c35-3e33-4573-af54-700b31dd9670)![Screenrecorder-2024-09-26-16-46-35-973](https://github.com/user-attachments/assets/5c4ac1d6-ad78-4479-bf23-a90183f4bdb9)#app
+# Cabify, A fully functional cab booking Android application that allows users to book rides, track drivers in real-time, and view trip details. The app features:
+## Contents
+* [Features](#features)
+* [Flow chart](#flow-chart)
+* [Animations](#Features)
+* [Technologies Used](#built-using)
 
-<img src="https://github.com/user-attachments/assets/25105ae2-2da3-4e3f-8ec0-635c45544272" width="350"  /> 
 
-## Screenshots
 
-<img src="https://github.com/user-attachments/assets/ad87ec5e-3b5b-4efb-83e5-f3a7cb4c50e6" width="350"  /> 
+## Flow Chart
+<img src="https://github.com/user-attachments/assets/34081a7d-1246-4e9d-91a3-5b34d65f27c2" width="350"  /> 
 
-![Screenrecorder-2024-09-26-20-32-57-213]()
-![Screenrecorder-2024-09-26-17-22-08-824]()
-![Uploading Screenrecorder-2024-09-26-16-4![Screenrecorder-2024-09-26-16-51-51-859 (2)]()
-6-35-973.gif…]()
-![Screenrecorder-2024-09-26-16-46-35-973]()
-![Screenrecorder-2024-09-26-14-17-58-506]()
+[View Svg instead](https://github.com/user-attachments/assets/34081a7d-1246-4e9d-91a3-5b34d65f27c2)
+
+## Animations
+#### Ride Completed (Driver)
+<img src="https://github.com/user-attachments/assets/a44254c8-6bb2-4d17-b594-b3133beb2d98" width="350"  /> 
+
+#### Welcome Page
+<img src="https://github.com/user-attachments/assets/2d713d52-ddc8-42c0-9d67-3bf68dae0ebf" width="350"  /> 
+
+#### Driver PRofile
+<img src="https://github.com/user-attachments/assets/52d70965-12d2-4c8a-89e4-cd2941f4dbf4" width="350"  /> 
+
+#### Search locations near me
+<img src="https://github.com/user-attachments/assets/3139ea02-9060-4e75-9305-7200a5a889d4" width="350"  /> 
+
+#### Book Ride
+<img src="https://github.com/user-attachments/assets/92044595-f5f3-4c5a-8f6b-33d3ef06dd8d" width="350"  /> 
+
+## Features
+* Welcome page: Welcome page for new users With awesome animations.
+* User Authentication: Secure sign-in with social media and email (using Firebase Authentication).
+* Search location: Search locations by name.
+* Booking & Trip Tracking: Seamlessly book a cab, view driver details, and track the trip in real-time.
+* Rating: passenger can rate driver at the end of ride.
+* Ride History: users can see their ride history 
+* Driver Verification: In-App verification When driver approaches the passenger (otp-less).
+
+
+
+## Built using: 
+
+* Java
+* Firebase (Authentication, Database, Storage, Messaging, GeoFire)
+* HERE Maps API for navigation.
+* Material Design elements for an intuitive user experience.
+* Okhttp for communication with rest api.
+* Lottie to display animations.
+
+
