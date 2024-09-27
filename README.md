@@ -4,6 +4,7 @@
 * [Flow chart](#flow-chart)
 * [Animations](#Features)
 * [Technologies Used](#built-using)
+* [Download apk](https://github.com/aka-munan/cabify/blob/main/app-release.apk)
 
 
 
