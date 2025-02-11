@@ -4,14 +4,7 @@ plugins {
 }
 
 android {
-    signingConfigs {
-        getByName("debug") {
-            storeFile = file("C:\\Users\\llpl\\AndroidStudioProjects\\signing\\debugKeystore.jks")
-            storePassword = "haris191121"
-            keyAlias = "key1"
-            keyPassword = "haris191121"
-        }
-    }
+
     android.buildFeatures.buildConfig = true
     namespace = "com.cab.app"
     compileSdk = 35
@@ -32,7 +25,6 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
-            signingConfig = signingConfigs.getByName("debug")
             resValue("string", "web_client_id", System.getenv("GOOGLE_WEB_CLIENT_ID"))
             buildConfigField("String","HERE_API_KEY",System.getenv("HERE_API_KEY1"))
         }
